@@ -11,6 +11,10 @@ TagManager:
   - 5
   - 6
   - 7
+  - Ghost1
+  - Ghost2
+  - Ghost3
+  - Ghost4
   layers:
   - Default
   - TransparentFX

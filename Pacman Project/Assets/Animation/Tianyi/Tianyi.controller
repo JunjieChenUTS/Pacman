@@ -47,9 +47,6 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: 9010290305507946803}
     m_Position: {x: 350, y: 50, z: 0}
-  - serializedVersion: 1
-    m_State: {fileID: -2223803235146740040}
-    m_Position: {x: 600, y: 10, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: -667782836160824727}
@@ -63,7 +60,7 @@ AnimatorStateMachine:
   m_EntryPosition: {x: 640, y: 70, z: 0}
   m_ExitPosition: {x: 650, y: 260, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
-  m_DefaultState: {fileID: -2223803235146740040}
+  m_DefaultState: {fileID: -2522066525417620860}
 --- !u!1101 &-2901141897972286030
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -110,32 +107,6 @@ AnimatorState:
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
   m_Motion: {fileID: 7400000, guid: 7d581e0766d6a85499ee263d7263298b, type: 2}
-  m_Tag: 
-  m_SpeedParameter: 
-  m_MirrorParameter: 
-  m_CycleOffsetParameter: 
-  m_TimeParameter: 
---- !u!1102 &-2223803235146740040
-AnimatorState:
-  serializedVersion: 6
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: GhostFading
-  m_Speed: 0.5
-  m_CycleOffset: 0
-  m_Transitions: []
-  m_StateMachineBehaviours: []
-  m_Position: {x: 50, y: 50, z: 0}
-  m_IKOnFeet: 0
-  m_WriteDefaultValues: 1
-  m_Mirror: 0
-  m_SpeedParameterActive: 0
-  m_MirrorParameterActive: 0
-  m_CycleOffsetParameterActive: 0
-  m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: ba6a9a7dcf3b41b4cb08a0be3f6eeabb, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
